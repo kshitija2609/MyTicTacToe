@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:id="@+id/lineone"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:onClick="imageTapped"
+            android:padding="5dp"
+            android:tag="0"
+            android:src="@drawable/icons" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:onClick="imageTapped"
+            android:padding="5dp"
+            android:tag="1"
+            android:src="@drawable/icons" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:padding="5dp"
+            android:tag="2"
+            android:onClick="imageTapped"
+            android:src="@drawable/icons" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linetwo"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:padding="5dp"
+            android:tag="3"
+            android:onClick="imageTapped"
+            android:src="@drawable/icons" />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:padding="5dp"
+            android:tag="4"
+            android:onClick="imageTapped"
+            android:src="@drawable/icons" />
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:padding="5dp"
+            android:tag="5"
+            android:onClick="imageTapped"
+            android:src="@drawable/icons" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linethree"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:padding="5dp"
+            android:tag="6"
+            android:onClick="imageTapped"
+            android:src="@drawable/icons" />
+
+        <ImageView
+            android:id="@+id/img8"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:padding="5dp"
+            android:tag="7"
+            android:onClick="imageTapped"
+            android:src="@drawable/icons" />
+
+        <ImageView
+            android:id="@+id/img9"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:padding="5dp"
+            android:tag="8"
+            android:onClick="imageTapped"
+            android:src="@drawable/icons" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="5dp"
+        android:onClick="playAgain"
+        android:background="@drawable/shape"
+        android:text=" play Again "
+        android:layout_gravity="center"/>
+
+</LinearLayout>
